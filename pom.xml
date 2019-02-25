@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>      
+  <groupId>org.opennms</groupId>
+  <artifactId>opennms-snmp-time-monitor</artifactId>
+  <packaging>jar</packaging>
+  <version>0.23.0-SNAPSHOT</version>
+  <name>OpenNMS Snmp Time  Monitor</name>
+  <properties>
+	<opennms.version>23.0.3</opennms.version>
+  </properties>
+  <repositories>
+    <repository>
+      <id>opennms-repo</id>
+      <name>OpenNMS Repository</name>
+      <url>http://maven.opennms.org/content/groups/opennms.org-release</url>
+    </repository>
+  </repositories>
+  <dependencies>
+    <dependency>
+      <groupId>org.opennms.features.poller.monitors</groupId>
+      <artifactId>org.opennms.features.poller.monitors.core</artifactId>
+      <version>${opennms.version}</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+</project>
