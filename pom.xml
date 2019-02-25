@@ -7,7 +7,7 @@
   <version>0.24-SNAPSHOT</version>
   <name>OpenNMS Snmp Time  Monitor</name>
   <properties>
-	<opennms.version>24.0.1</opennms.version>
+	<opennms.version>24.0.0-SNAPSHOT</opennms.version>
   </properties>
   <repositories>
     <repository>
