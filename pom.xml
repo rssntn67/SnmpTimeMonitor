@@ -4,10 +4,10 @@
   <groupId>org.opennms</groupId>
   <artifactId>opennms-snmp-time-monitor</artifactId>
   <packaging>bundle</packaging>
-  <version>23.0.3</version>
+  <version>24.0.0-SNAPSHOT</version>
   <name>OpenNMS :: Features :: Poller :: Monitors :: Core :: SnmpTimeMonitor</name>
   <properties>
-	<opennms.version>23.0.3</opennms.version>
+	<opennms.version>24.0.0-SNAPSHOT</opennms.version>
   </properties>
   <build>
     <plugins>
